@@ -44,16 +44,32 @@ button {
   padding: 12px 31.5px;
   font-family: "Lexend Exa", sans-serif;
   margin-top: 83px;
+  border: 1px solid #fff;
+}
+.box-1 {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.box-1 > button {
 }
 .box-2 {
   background-color: #006971;
 }
 .box-3 {
   background-color: #004140;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
-.box-2 > button {
-  color: #006971;
+.box-2 > button:hover {
+  color: #fff;
+  background-color: #e28625;
 }
-.box-3 > button {
-  color: #004140;
+
+.box-3 > button:hover {
+  color: #fff;
+  background-color: #006971;
+}
+.box-1 > button:hover {
+  color: fff;
+  background-color: #004140;
 }
